@@ -7,6 +7,7 @@ function prettyplots(fsize,lsize,msize)
 %
 % Author: Keelan Chu For
 % 2014-04-23
+% https://gist.github.com/keelanc/0fa61b0702b74b1774a0
 
 if nargin < 3
     msize = 8;  % default marker size
