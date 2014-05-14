@@ -1,6 +1,10 @@
 function prettyplots(fsize,lsize,msize)
 % Increases font sizes, line and marker weights of plots for printing or
 % presentations. Acts on all open plots.
+%
+% prettyplots(fsize,lsize,msize)
+% parameters: font size, line weight, marker size
+&
 % Author: Keelan Chu For
 % 2014-04-23
 
