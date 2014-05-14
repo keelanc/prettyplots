@@ -4,7 +4,7 @@ function prettyplots(fsize,lsize,msize)
 %
 % prettyplots(fsize,lsize,msize)
 % parameters: font size, line weight, marker size
-&
+%
 % Author: Keelan Chu For
 % 2014-04-23
 
