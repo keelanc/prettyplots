@@ -33,9 +33,9 @@ Examples:
 
 * [Organization of Graphics Objects](http://www.mathworks.com/help/matlab/creating_plots/organization-of-graphics-objects.html)
 * [Object Properties](http://www.mathworks.com/help/matlab/creating_plots/object-properties.html)
-* [Searching for Objects by Property Values — findobj](http://www.mathworks.com/help/matlab/creating_plots/accessing-object-handles.html#f7-18979)
+* [Searching for Objects by Property Values â€” findobj](http://www.mathworks.com/help/matlab/creating_plots/accessing-object-handles.html#f7-18979)
 
 
 ### License ###
 
-TBD
+This project is licensed under the terms of the MIT license. See LICENSE.txt
