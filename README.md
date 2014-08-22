@@ -3,7 +3,7 @@
 
 ### What is this repository for? ###
 
-Increases font sizes, line and marker weights of plots for printing or presentations. Acts on all open plots. All fonts are affected, including axes, labels, and legends.
+Increases font sizes, line and marker weights of Matlab plots for printing or presentations. Acts on all open plots. All fonts are affected, including axes, labels, and legends.
 
 
 ### Getting Started ###
@@ -20,6 +20,8 @@ path or **copy** the file file `prettyplots.m` it to your working folder.
 ### Usage
 
 The `prettyplots.m` script can be run from the Matlab command window. The file must be in current working directory or in another directory that is in your path. The syntax is `prettyplots(fsize,lsize,msize)` where the parameters are font size, line weight, and marker size, respectively. Default values are used if any parameters are left undeclared.
+
+Type `help prettyplots` in the command window for the description of its usage.
 
 Examples:
 
