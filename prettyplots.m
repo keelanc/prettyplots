@@ -1,13 +1,21 @@
 function prettyplots(fsize,lsize,msize)
-% Increases font sizes, line and marker weights of plots for printing or
-% presentations. Acts on all open plots.
+%PRETTYPLOTS Increase readability of all open plots.
+%   PRETTYPLOTS(fsize,lsize,msize) Increases font sizes, line and marker
+%   weights, respectively. Default values [8,2,16] are used if any 
+%   parameters are left undeclared.
+%   
+%   Examples
+%      PRETTYPLOTS(10,4,20)
+%      PRETTYPLOTS(10,4)
+%      PRETTYPLOTS(10)
+%      PRETTYPLOTS
 %
-% prettyplots(fsize,lsize,msize)
-% parameters: font size, line weight, marker size
-%
-% Author: Keelan Chu For
-% 2014-04-23
-% https://gist.github.com/keelanc/0fa61b0702b74b1774a0
+%   See also PLOTS2SUBPLOTS.
+%   https://github.com/keelanc/
+
+%   Author: Keelan Chu For
+%   2014-08-22
+%   https://github.com/keelanc/prettyplots
 
 if nargin < 3
     msize = 8;  % default marker size
